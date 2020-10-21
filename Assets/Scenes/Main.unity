@@ -286,9 +286,9 @@ MonoBehaviour:
   outerWallMap: {fileID: 1359924008}
   innerWallMap: {fileID: 861807630}
   edgeMap: {fileID: 751819859}
-  deviationRate: 15
+  deviationRate: 10
   roomRate: 5
-  maxRouteLength: 1000
+  maxRouteLength: 200
   maxRoutes: 10
   routeCount: 1
 --- !u!156049354 &494639412
@@ -374,7 +374,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 25
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
